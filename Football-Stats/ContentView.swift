@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var teamList = [Team]()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List(teamList) { team in
+                Text(team.name ?? "No name")
+            }
+            .listStyle(.plain)
+            
+            Button {
+                
+            } label: {
+                Text("Get Teams")
+            }
         }
         .padding()
         
