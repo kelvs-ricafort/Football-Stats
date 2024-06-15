@@ -13,6 +13,7 @@
 		B69F4E042C1DDB520044BF3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69F4E032C1DDB520044BF3A /* Preview Assets.xcassets */; };
 		B69F4E0E2C1DDFA80044BF3A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F4E0D2C1DDFA80044BF3A /* Team.swift */; };
 		B69F4E102C1DDFF10044BF3A /* TeamResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F4E0F2C1DDFF10044BF3A /* TeamResponse.swift */; };
+		B69F4E132C1DE1D50044BF3A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F4E122C1DE1D50044BF3A /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B69F4E0B2C1DDD120044BF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B69F4E0D2C1DDFA80044BF3A /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		B69F4E0F2C1DDFF10044BF3A /* TeamResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamResponse.swift; sourceTree = "<group>"; };
+		B69F4E122C1DE1D50044BF3A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B69F4E0B2C1DDD120044BF3A /* Info.plist */,
 				B69F4DFC2C1DDB4E0044BF3A /* Football_StatsApp.swift */,
 				B69F4DFE2C1DDB4E0044BF3A /* ContentView.swift */,
+				B69F4E112C1DE1BE0044BF3A /* Service */,
 				B69F4E0C2C1DDF910044BF3A /* Model */,
 				B69F4E0A2C1DDBDE0044BF3A /* Config.xcconfig */,
 				B69F4E002C1DDB520044BF3A /* Assets.xcassets */,
@@ -83,6 +86,14 @@
 				B69F4E0F2C1DDFF10044BF3A /* TeamResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B69F4E112C1DE1BE0044BF3A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B69F4E122C1DE1D50044BF3A /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				B69F4DFF2C1DDB4E0044BF3A /* ContentView.swift in Sources */,
 				B69F4DFD2C1DDB4E0044BF3A /* Football_StatsApp.swift in Sources */,
 				B69F4E102C1DDFF10044BF3A /* TeamResponse.swift in Sources */,
+				B69F4E132C1DE1D50044BF3A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

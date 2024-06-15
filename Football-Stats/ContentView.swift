@@ -18,15 +18,21 @@ struct ContentView: View {
             .listStyle(.plain)
             
             Button {
-                
+                getTeams()
             } label: {
                 Text("Get Teams")
             }
         }
         .padding()
-        
+    }
+    
+    func getTeams() {
+        Task {
+            teamList = await DataService().getTeamsData()
+        }
     }
 }
+
 
 #Preview {
     ContentView()
