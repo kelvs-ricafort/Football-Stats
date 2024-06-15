@@ -19,6 +19,8 @@
 		B69F4DFE2C1DDB4E0044BF3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B69F4E002C1DDB520044BF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69F4E032C1DDB520044BF3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B69F4E0A2C1DDBDE0044BF3A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B69F4E0B2C1DDD120044BF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		B69F4DFB2C1DDB4E0044BF3A /* Football-Stats */ = {
 			isa = PBXGroup;
 			children = (
+				B69F4E0B2C1DDD120044BF3A /* Info.plist */,
 				B69F4DFC2C1DDB4E0044BF3A /* Football_StatsApp.swift */,
 				B69F4DFE2C1DDB4E0044BF3A /* ContentView.swift */,
+				B69F4E0A2C1DDBDE0044BF3A /* Config.xcconfig */,
 				B69F4E002C1DDB520044BF3A /* Assets.xcassets */,
 				B69F4E022C1DDB520044BF3A /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		B69F4E052C1DDB520044BF3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69F4E0A2C1DDBDE0044BF3A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		B69F4E062C1DDB520044BF3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69F4E0A2C1DDBDE0044BF3A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Football-Stats/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Football-Stats/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
